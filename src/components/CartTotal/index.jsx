@@ -8,7 +8,7 @@ export const CartTotal = () => {
         <p>Total</p>
         <p>R$ 40.00</p>
       </div>
-      <Button/>
+      <Button>Remover todos</Button>
     </div>
   )
 }

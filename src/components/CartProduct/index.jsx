@@ -6,13 +6,13 @@ export const CartProduct = () => {
   return (
     <StyledCartProduct>
       <img src="./product.svg" alt="" />
-      <div>
-        <div>
+      <div className="container__itemInfoAndButton">
+        <div className="container__itemInfo">
           <h3>Hamburguer</h3>
           <small>Sanduíches</small>
         </div>
         <div>
-          <Button />
+          <Button>Remover</Button>
         </div>
       </div>
     </StyledCartProduct>

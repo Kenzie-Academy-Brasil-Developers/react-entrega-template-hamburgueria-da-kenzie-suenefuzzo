@@ -10,7 +10,7 @@ export const Product = () => {
         <h2>Hamburguer</h2>
         <small>Sanduíches</small>
         <p>R$ 14.00</p>
-        <Button />
+        <Button>Adicionar </Button>
       </div>
     </StyledProduct>
   );

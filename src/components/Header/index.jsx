@@ -9,7 +9,7 @@ export const Header = () => {
       <img src="./logo.svg" alt="Logo" />
       <form>
         <InputSearch />
-        <Button />
+        <Button>Pesquisar</Button>
       </form>
     </StyledHeader>
   );
