@@ -13,8 +13,9 @@ export const CartList = () => {
       </div> */}
       <ul>
         <CartProduct/>
+        <CartTotal/>
       </ul>
-      <CartTotal/>
+      
     </StyledCartList>
   );
 };
