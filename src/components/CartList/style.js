@@ -27,6 +27,17 @@ export const StyledCartList = styled.aside`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+
+  .container__emptyCart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 158px;
+    background-color: var(--grey-0);
+    border-bottom-left-radius: var(--radius-secondary);
+    border-bottom-right-radius: var(--radius-secondary);
 
     h2 {
       font-size: var(--font-size-3);
@@ -39,5 +50,12 @@ export const StyledCartList = styled.aside`
       font-weight: var(--font-weight-4);
       color: var(--grey-50);
     }
+  }
+
+
+
+  @media (min-width: 1024px){
+    width: 26%;
+    margin-top: 0;
   }
 `;

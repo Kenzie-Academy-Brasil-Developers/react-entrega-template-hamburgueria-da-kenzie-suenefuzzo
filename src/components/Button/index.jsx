@@ -1,11 +1,11 @@
 import React from "react"
-import { StyledButton } from "./style"
+import { StyledDefaultButton } from "./style"
 
-export const Button = ({children}) => {
+export const Button = ({children, addItemToCart, item}) => {
   return (
-    <StyledButton>
+    <StyledDefaultButton onClick={() => addItemToCart(item)}>
       {children}
-    </StyledButton>
+    </StyledDefaultButton>
   )
 }
 

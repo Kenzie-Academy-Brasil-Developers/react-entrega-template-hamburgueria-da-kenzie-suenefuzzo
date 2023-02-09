@@ -33,5 +33,15 @@ export const StyledCartTotal = styled.div`
 
   button {
     width: 100%;
+    height: 60px;
+    background-color: var(--grey-20);
+    color: var(--grey-50);
+    border: none;
+    border-radius: var(--radius-default);
+
+    :hover{
+      background-color: var(--grey-50);
+      color:var(--grey-20)
+    }
   }
 `;

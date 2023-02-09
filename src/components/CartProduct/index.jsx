@@ -1,18 +1,18 @@
 import React from "react";
-import { Button } from "../Button";
+import { StyledRemoveButton } from "../Button/style";
 import { StyledCartProduct } from "./style";
 
-export const CartProduct = () => {
+export const CartProduct = ({item, removeItemFromCart}) => {
   return (
     <StyledCartProduct>
-      <img src="./product.svg" alt="" />
+      <img src={item.img} alt={item.name} />
       <div className="container__itemInfoAndButton">
         <div className="container__itemInfo">
-          <h3>Hamburguer</h3>
-          <small>Sanduíches</small>
+          <h3>{item.name}</h3>
+          <small>{item.category}</small>
         </div>
         <div>
-          <Button>Remover</Button>
+          <StyledRemoveButton onClick={() => removeItemFromCart(item.id)}>Remover</StyledRemoveButton>
         </div>
       </div>
     </StyledCartProduct>
