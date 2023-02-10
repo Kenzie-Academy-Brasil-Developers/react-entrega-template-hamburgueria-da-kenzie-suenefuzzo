@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledProduct = styled.li`
   border: 2px solid var(--grey-20);
   border-radius: var(--radius-secondary);
-  min-width: 18.75rem;
+  min-width: 250px;
   height: 21.625rem;
 
   .container__image {
@@ -47,5 +47,9 @@ export const StyledProduct = styled.li`
       margin-top: 10px;
       align-self: flex-start;
     }
+  }
+
+  @media (min-width: 1440px) {
+    max-width: 218px;
   }
 `;

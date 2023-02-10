@@ -9,7 +9,6 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 export const Dashboard = () => {
-  // const {loading, setLoading} = useEffect(false)
   const localList = localStorage.getItem("@cartList");
   const [productsList, setProductsList] = useState([]);
   const [currentSale, setCurrentSale] = useState(
@@ -49,9 +48,6 @@ export const Dashboard = () => {
       } catch (error) {
         console.log(error);
       }
-      // finally{
-
-      // }
     };
     loadData();
   }, []);

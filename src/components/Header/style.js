@@ -65,22 +65,21 @@ export const StyledHeader = styled.header`
       width: 97%;
       margin: 0 auto;
 
-      form{
+      form {
         max-width: 365px;
       }
     }
   }
 
-  @media (min-width: 1024px){
-    .container__header{
+   @media (min-width: 1024px) {
+    .container__header {
       width: 900px;
     }
-    
   }
-
-  /* @media (min-width: 1370px){
-    .container__header{
-      max-width: 1370px;
+  
+  @media (min-width: 1440px) {
+    .container__header {
+      width: 1200px;
     }
-  } */
+  } 
 `;

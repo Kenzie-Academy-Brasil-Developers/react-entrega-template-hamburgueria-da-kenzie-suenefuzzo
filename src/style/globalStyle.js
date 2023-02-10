@@ -42,6 +42,7 @@ export const GlobalStyle = createGlobalStyle`
 
     body{
         font-family: 'Inter', sans-serif;
+        overflow-x: hidden !important;
     }
 
     button{

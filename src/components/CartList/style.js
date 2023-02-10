@@ -53,9 +53,13 @@ export const StyledCartList = styled.aside`
   }
 
 
-
   @media (min-width: 1024px){
-    width: 26%;
     margin-top: 0;
+    min-width: 40%;
+  }
+  
+  @media (min-width: 1440px) {
+    min-width: 30% ;
+    
   }
 `;

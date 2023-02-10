@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import { Button } from "../Button";
 import { InputSearch } from "../InputSearch";
 import { StyledHeader } from "./style";
 
